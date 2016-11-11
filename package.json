@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/MiguelCastillo/bit-bundler-service#readme",
   "dependencies": {
-    "bit-bundler": "^5.0.0",
+    "bit-bundler": "^5.1.1",
     "bit-loader-builtins": "^1.1.1",
     "bit-loader-extensions": "^1.0.1",
     "bit-loader-js": "^1.2.1",
