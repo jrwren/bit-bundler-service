@@ -1,0 +1,7 @@
+```
+git archive --format=tar v2.0.0 > ../bit-bundler-service_2.0.0.orig.tar
+tar -rf ../bit-bundler-service_2.0.0.orig.tar node_modules
+xz ../bit-bundler-service_2.0.0.orig.tar
+rm -rf cache/* .bundle-cache.json
+dpkg-buildpackage -i.git
+```
